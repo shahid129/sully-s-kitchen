@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Smooch+Sans:wght@500&display=swap');
+* {
+    margin: 0;
+    border: 0;
+}
+body {
+    font-family: Smooch Sans, sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 1.2em;
+}
