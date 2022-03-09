@@ -3,9 +3,36 @@
     margin: 0;
     border: 0;
 }
+
 body {
     font-family: Smooch Sans, sans-serif;
     font-weight: 400;
     color: black;
     font-size: 1.2em;
+}
+/* headings and logo */
+h1, h3 {
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: black;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#logo {
+    float: left;
+    margin: 40px 30px;
+}
+/* sub heading */
+.sub-heading {
+    margin: 90px;
+    margin-left: 200px;
+    position: absolute;
+    color: black;
+    letter-spacing: .2em;
+    clear: both;   
 }
