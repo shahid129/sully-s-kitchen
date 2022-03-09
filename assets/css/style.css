@@ -3,14 +3,13 @@
     margin: 0;
     border: 0;
 }
-
 body {
     font-family: Smooch Sans, sans-serif;
     font-weight: 400;
     color: black;
     font-size: 1.2em;
 }
-/* headings and logo */
+
 h1, h3 {
     font-family: Raleway, sans-serif;
     text-transform: uppercase;
@@ -34,10 +33,9 @@ h1 {
     position: absolute;
     color: black;
     letter-spacing: .2em;
-    clear: both;   
+    clear: both;
+    
 }
-
-
 /* menu buttons */
 #menu li {
 
@@ -60,5 +58,206 @@ h1 {
     /* border-bottom: 1px solid black; */
     border: 2px solid red;
     background-color: antiquewhite;
+}
+
+/* hero image */
+#hero-image {
+    background: url('../images/hero-image.jpeg') no-repeat center center; 
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+}
+
+#hero {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+/* footer */
+#social {
+    text-align: center;
+    font-size: 2em;
+}
+
+#social li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 20px 60px 20px 60px;
+}
+h4 {
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.2em;
+    letter-spacing: 6px;
+    margin-top: 30px;
+}
+
+/* menu items */
+#menu-curry {
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    /* background-color:rgb(45, 6, 1) */
+}
+.menu-left {
+    float: left;
+    text-align: center;
+    line-height: 2em;
+    margin-left: 40px;
+}
+
+.menu-right {
+    float: right;
+    text-align: center;
+    line-height: 2em;
+    margin-right: 40px;
+}
+
+/* sign up form */
+
+#user {
+    clear: left;
+    background: url("..//images/form-image.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+}
+
+.signup-form {
+    margin: 10px 85px;
+  
+    max-width: 400px;
+    padding: 50px;
+    float: left;
+    border: 4px solid rgb(221, 214, 214);
+    opacity: .5;
+}
+
+.signup-form label {
+    display: block;
+    letter-spacing: .2em;
+    margin-top: 2em;
+    font-size: 1.2em;
+}
+
+.user-input {
+    width: 90%;
+    border: 2px solid  rgb(221, 214, 214);
+    border-radius: 1%;
+    background: transparent;
+    line-height: 2em;
+}
+.user-input:hover {
+    border: 2px solid green;
+}
+
+.signup {
+    /* display: inline-block; */
+    margin-top: 30px;
+    margin-left: 60px;
+    background-color: rgb(38, 1, 1);
+    padding: 20px 80px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: rgb(221, 214, 214);
+    text-transform: uppercase;
+}
+/* contact us */
+#contact-us {
+    height: 80vh;
+    width: 100%;
+    clear: both;
+    background: url("../images/lets-chat.jpeg");
+    background-position: center;
+    background-size: cover; 
+}
+#contact-us p {
+    font-size: 5em;
+    color: rgb(221, 214, 214);
+    text-align: center;
+    /* margin-top: 20%; */
+    text-transform: uppercase;
+    border-bottom: 10px solid red;
+    border-radius: 80%;
+    padding-top: 160px;
+}
+
+#find-us {
+    /* border: 2px solid green; */
+    height: 70vh;
+    width: 100%;
+}
+.map {
+    float: left;
+    height: 70vh;
+    width: 33%;
+}
+.map iframe {
+    height: 70vh;
+    width: 100%;
+}
+
+.meet-us {
+    float: left;
+    height: 70vh;
+    width: 33%;
+    text-align: center;
+}
+
+.meet-us h4 {
+    margin-top: 8%;
+    font-size: 2em;
+}
+.meet-us p {
+    margin: 30px 10px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.pitch-us {
+    float: right;
+    height: 70vh;
+    width: 33%;
+    background-color: rgb(221, 214, 214);
+}
+
+.pitch-us h4{
+    font-size: 2em;
+    margin-left: 0;
+}
+.pitch-us form{
+    margin-left: 40px;
+}
+.pitch-us label {
+    display: block;
+    letter-spacing: .1em;
+    line-height: 1.5em; 
+    margin-top: 10px;
+}
+
+.pitch-us input{
+    width: 60%;
+    height: 2em;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 2px;
+}
+.pitch-us input:hover{
+    border: 2px solid green;
+}
+.pitch-us textarea{
+    width: 60%;
+    height: 100px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 2px;
+}
+
+.pitch-us textarea:hover{
+    border: 2px solid green;
 }
 
