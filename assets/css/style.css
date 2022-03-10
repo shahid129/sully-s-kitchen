@@ -1,3 +1,4 @@
+/* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Smooch+Sans:wght@500&display=swap');
 * {
     margin: 0;
@@ -22,6 +23,7 @@ h1 {
     font-weight: 900;
 }
 
+/* logo - sully's Kitchen */
 #logo {
     float: left;
     margin: 40px 30px;
@@ -160,7 +162,7 @@ h4 {
 .user-input:hover {
     border: 2px solid green;
 }
-
+/* sign up button */
 .signup {
     margin-top: 30px;
     margin-left: 60px;
@@ -173,8 +175,7 @@ h4 {
 }
 
 .signup:hover{
-    /* color: rgb(38, 1, 1); */
-    background-color: rgb(58, 47, 47);
+    background-color: rgb(66, 51, 51);
     cursor: pointer;
 }
 /* footer */
