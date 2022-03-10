@@ -172,6 +172,12 @@ h4 {
     text-transform: uppercase;
 }
 
+.signup:hover{
+    /* color: rgb(38, 1, 1); */
+    background-color: rgb(58, 47, 47);
+    cursor: pointer;
+}
+/* footer */
 #find-us {
     height: 70vh;
     width: 100%;
