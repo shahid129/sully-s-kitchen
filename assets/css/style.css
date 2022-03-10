@@ -74,6 +74,7 @@ h1 {
     overflow: hidden;
     position: relative;
 }
+
 /* footer */
 #social {
     text-align: center;
@@ -98,21 +99,25 @@ h4 {
 /* menu items */
 #menu-curry {
     box-sizing: border-box;
+    display: flex;
     width: 100%;
-    float: left;
+    justify-content: space-between;
+}
+.our-menu{
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 20px;
 }
 .menu-left {
-    float: left;
     text-align: center;
     line-height: 2em;
-    margin-left: 40px;
+    padding: 2% 5%;
 }
 
 .menu-right {
-    float: right;
     text-align: center;
     line-height: 2em;
-    margin-right: 40px;
+    padding: 2% 5%;
 }
 
 /* sign up form */
@@ -162,29 +167,12 @@ h4 {
     color: rgb(221, 214, 214);
     text-transform: uppercase;
 }
-/* contact us */
-#contact-us {
-    height: 80vh;
-    width: 100%;
-    clear: both;
-    background: url("../images/lets-chat.jpeg");
-    background-position: center;
-    background-size: cover; 
-}
-#contact-us p {
-    font-size: 5em;
-    color: rgb(221, 214, 214);
-    text-align: center;
-    text-transform: uppercase;
-    border-bottom: 10px solid red;
-    border-radius: 80%;
-    padding-top: 160px;
-}
 
 #find-us {
-    /* border: 2px solid green; */
     height: 70vh;
     width: 100%;
+    display: flex;
+    padding-top: 50px;
 }
 .map {
     float: left;
@@ -201,6 +189,7 @@ h4 {
     height: 70vh;
     width: 33%;
     text-align: center;
+    border: 2px solid rgb(221, 214, 214)
 }
 
 .meet-us h4 {
