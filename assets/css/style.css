@@ -24,42 +24,48 @@ h1 {
 }
 
 /* logo - sully's Kitchen */
-#logo {
-    float: left;
-    margin: 40px 30px;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
 }
+header a {
+    text-decoration: none;
+}
+
 /* sub heading */
-.sub-heading {
-    margin: 90px;
-    margin-left: 200px;
-    position: absolute;
+#sub-heading {
     color: black;
     letter-spacing: .2em;
-    clear: both;
-    
+    display: flex;
+    justify-content: right;
 }
 /* menu buttons */
 #menu li {
 
-    float: right;
-    margin: 60px 20px;
+    display: inline-block;
     list-style: none;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+    /* padding: 10px 15px; */
 }
 
 #menu a {
+    padding: 0 20px;
     text-decoration: none;
     color: black;
     font-size: 1.2em;
-    padding: 10px 20px;
-    border-radius: 3px;
 }
 
-#menu a:hover {
-    /* border-bottom: 1px solid black; */
-    border: 2px solid red;
-    background-color: antiquewhite;
+.active {
+    border-bottom: 1px solid black;
+}
+
+#menu li a {
+    transition: .3s ease 0s;
+}
+
+#menu li a:hover{
+    text-decoration: underline;
 }
 
 /* hero image */
