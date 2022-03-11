@@ -261,11 +261,11 @@ h4 {
     border: 2px solid green;
 }
 
-.submit {
+.pitch-us .submit {
     margin-top: 10px;
     width: 60%;
     background-color: rgb(38, 1, 1);
-    padding: 20px 10;
+    padding: 10px 10px;
     border-radius: 5px;
     font-size: 1.2em;
     color: rgb(221, 214, 214);
