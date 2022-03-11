@@ -251,7 +251,7 @@ h4 {
 }
 .pitch-us textarea{
     width: 60%;
-    height: 100px;
+    height: 60px;
     background: transparent;
     border: 2px solid white;
     border-radius: 2px;
@@ -259,5 +259,21 @@ h4 {
 
 .pitch-us textarea:hover{
     border: 2px solid green;
+}
+
+.submit {
+    margin-top: 10px;
+    width: 60%;
+    background-color: rgb(38, 1, 1);
+    padding: 20px 10;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: rgb(221, 214, 214);
+    text-transform: uppercase;
+}
+
+.submit:hover{
+    background-color: rgb(66, 51, 51);
+    cursor: pointer;
 }
 
