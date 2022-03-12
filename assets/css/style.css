@@ -136,8 +136,6 @@ h4 {
 }
 /* menu items */
 #menu-curry {
-    /* background: url('../images/hero-image.jpeg') no-repeat center center; 
-    background-size: cover; */
     background-color: #F3F3F3;
     box-sizing: border-box;
     display: flex;
@@ -147,7 +145,7 @@ h4 {
 .our-menu{
     text-align: center;
     font-size: 1.5em;
-    padding-top: 20px;
+    padding: 5px 0 20px 0;
 }
 .menu-left {
     width: 100%;
@@ -165,6 +163,32 @@ h4 {
     padding: 2% 5%;
     text-transform: capitalize;
 
+}
+/* more menu */
+#more-menu {
+    box-sizing: border-box;
+    display: flex;
+    border: 2px solid red;
+    height: 50vh;
+    width: 100%;
+}
+
+/* side order menu */
+.side-order {
+    border: 2px solid green;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+  
+}
+.side-order li {
+    list-style: none;
+    text-align: start;
+}
+.side-order span {
+    padding-right: 10%;
+    float: right;
 }
 
 /* sign up form */
@@ -259,7 +283,7 @@ h4 {
     float: right;
     height: 70vh;
     width: 33%;
-    background-color: rgb(221, 214, 214);
+    background-color: #F3F3F3;
 }
 
 .pitch-us h4{
@@ -312,5 +336,9 @@ h4 {
 .submit:hover{
     background-color: rgb(66, 51, 51);
     cursor: pointer;
+}
+
+#more-menu{
+
 }
 
