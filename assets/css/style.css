@@ -378,4 +378,35 @@ h4 {
     height: 100%;
     width: 35%;
 }
+/* opening hours */
+#opeing-hours{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 80%;
+    text-transform: uppercase;
+}
+    
+#opeing-hours th, td {
+    border: 2px solid grey;
+    padding: 5px;
+}
 
+#image {
+    display: flex;
+    flex-wrap: wrap;
+}
+#image > div {
+    width: 31%;
+    height: 40vh;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    border: 2px solid red;
+    object-fit: contain;
+}
+.image1 {
+    background: url("/assets/images/restaurant.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
