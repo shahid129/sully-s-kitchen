@@ -168,21 +168,22 @@ h4 {
 #more-menu {
     box-sizing: border-box;
     display: flex;
-    border: 2px solid red;
     height: 50vh;
     width: 100%;
+    border-bottom: 2px solid #F3F3F3;
 }
 
 /* side order menu */
 .side-order {
-    border: 2px solid green;
     height: 50vh;
     width: 100%;
     text-align: center;
     justify-content: space-between;
+    padding-top: 2%;
   
 }
 .side-order li {
+    padding-top: 2%;
     list-style: none;
     text-align: start;
 }
