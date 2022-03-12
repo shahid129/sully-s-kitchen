@@ -113,6 +113,7 @@ h4 {
     text-align: center;
     align-self: center;
     padding: 10px 15px;
+    width: 20%;
     background-color: rgb(38, 1, 1);
     border-radius: 5%;
     box-shadow: 5px 10px 8px 10px #888888;
@@ -135,6 +136,9 @@ h4 {
 }
 /* menu items */
 #menu-curry {
+    /* background: url('../images/hero-image.jpeg') no-repeat center center; 
+    background-size: cover; */
+    background-color: #F3F3F3;
     box-sizing: border-box;
     display: flex;
     width: 100%;
@@ -146,15 +150,21 @@ h4 {
     padding-top: 20px;
 }
 .menu-left {
+    width: 100%;
     text-align: center ;
     line-height: 2em;
     padding: 2% 5%;
+    text-transform: capitalize;
+
 }
 
 .menu-right {
+    width: 100%;
     text-align: center;
     line-height: 2em;
     padding: 2% 5%;
+    text-transform: capitalize;
+
 }
 
 /* sign up form */
