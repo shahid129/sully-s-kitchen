@@ -339,7 +339,45 @@ h4 {
     cursor: pointer;
 }
 
-#more-menu{
+#about-us {
+    background: url('../images/about-us.avif') no-repeat center center; 
+    background-size: cover;
+    box-sizing: border-box;
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    border: 2px solid red;
+    color: rgb(221, 214, 214);
+    justify-content: space-between;
+}
 
+.about-company p {
+    /* padding-top: 2%; */
+    color: rgb(221, 214, 214);
+    line-height: 1.2em;
+    text-transform: capitalize;
+    padding: 2% 5% 0 5%;
+}
+
+.we-do li {
+    padding-top: 2%;
+    color: rgb(221, 214, 214);
+    line-height: 1.2em;
+    text-transform: capitalize;
+    list-style: none;
+    text-align: center;
+    
+}
+
+.about-company {
+    height: 100%;
+    width: 55%;
+    border: 2px solid green;
+}
+
+.we-do {
+    height: 100%;
+    width: 35%;
+    border: 2px solid green;
 }
 
