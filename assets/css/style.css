@@ -344,19 +344,18 @@ h4 {
     background-size: cover;
     box-sizing: border-box;
     display: flex;
-    height: 90vh;
+    height: 60vh;
     width: 100%;
-    border: 2px solid red;
     color: rgb(221, 214, 214);
     justify-content: space-between;
 }
 
 .about-company p {
-    /* padding-top: 2%; */
     color: rgb(221, 214, 214);
     line-height: 1.2em;
     text-transform: capitalize;
     padding: 2% 5% 0 5%;
+    text-align: justify;
 }
 
 .we-do li {
@@ -372,12 +371,11 @@ h4 {
 .about-company {
     height: 100%;
     width: 55%;
-    border: 2px solid green;
+
 }
 
 .we-do {
     height: 100%;
     width: 35%;
-    border: 2px solid green;
 }
 
