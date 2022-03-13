@@ -199,7 +199,7 @@ h4 {
     background: url("..//images/form-image.jpeg");
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 610px;
 
 }
 
@@ -391,22 +391,4 @@ h4 {
     border: 2px solid grey;
     padding: 5px;
 }
-
-#image {
-    display: flex;
-    flex-wrap: wrap;
-}
-#image > div {
-    width: 31%;
-    height: 40vh;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    border: 2px solid red;
-    object-fit: contain;
-}
-.image1 {
-    background: url("/assets/images/restaurant.avif");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/* gallery */
