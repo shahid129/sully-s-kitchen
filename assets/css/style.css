@@ -46,7 +46,6 @@ header a {
 
     display: inline-block;
     list-style: none;
-    /* padding: 10px 15px; */
 }
 
 #menu a {
@@ -55,6 +54,7 @@ header a {
     color: black;
     font-size: 1.2em;
     text-transform: uppercase;
+    position: ;
 }
 
 .active {
@@ -396,5 +396,25 @@ h4 {
 @media screen and (max-width: 930px) {
     #sub-heading {
         justify-content:left;
+    }
+    #menu li{
+        justify-content:center;
+        display:block;
+    }
+  }
+/* screen size smaller than 720px */
+  @media screen and (max-width: 720px) {
+
+    #menu li{
+        justify-content:center;
+        display:inline-flex;
+        padding-top: 20px;
+    }
+    header {
+        display:inline
+    
+    }
+    #logo, #sub-heading{
+        padding-left:9%;
     }
   }
