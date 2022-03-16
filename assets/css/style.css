@@ -150,6 +150,7 @@ h4 {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    overflow: hidden;
 }
 .our-menu{
     text-align: center;
@@ -460,4 +461,8 @@ h4 {
     #menu-curry{
         flex-direction: column;
     }
+    .signup-form{
+        margin: 20px 10px;
+    }
+}
 }
