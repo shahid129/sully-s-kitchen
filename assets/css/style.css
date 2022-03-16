@@ -54,7 +54,7 @@ header a {
     color: black;
     font-size: 1.2em;
     text-transform: uppercase;
-    position: ;
+
 }
 
 .active {
@@ -249,22 +249,22 @@ h4 {
 }
 
 #find-us {
-    height: 70vh;
+    height: 100%;
     width: 100%;
     display: flex;
     padding-top: 50px;
 }
 .map {
-    /* height: 70vh; */
+    height: 50vh;
     width: 33%;
 }
 .map iframe {
-    height: 70vh;
+    height: 100%;
     width: 100%;
 }
 
 .meet-us {
-    /* height: 70vh; */
+    height: 50vh;
     width: 33%;
     text-align: center;
     border-top: 1px solid rgb(221, 214, 214);
@@ -283,7 +283,7 @@ h4 {
 
 .pitch-us {
     float: right;
-    height: 70vh;
+    height: 50vh;
     width: 33%;
     background-color: #F3F3F3;
 }
@@ -406,7 +406,7 @@ h4 {
         justify-content:center;
         display:block;
     }
-  }
+}
 /* screen size smaller than 720px */
   @media screen and (max-width: 720px) {
 
@@ -422,4 +422,5 @@ h4 {
     #logo, #sub-heading{
         padding-left:9%;
     }
-  }
+    
+}
