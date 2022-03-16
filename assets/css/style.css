@@ -422,5 +422,16 @@ h4 {
     #logo, #sub-heading{
         padding-left:9%;
     }
+    #find-us {
+     height: 100%;
+    width: 100%;
+    display: inline;
+    padding-top: 50px;
+    }
+    .meet-us, .map, .pitch-us {
+    height: 100%;
+    width:100%;
+    text-align: center;
+    }
     
 }
