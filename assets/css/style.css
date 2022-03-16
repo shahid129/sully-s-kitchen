@@ -223,6 +223,7 @@ h4 {
     float: left;
     border: 4px solid black;
     box-shadow: 5px 10px 8px 10px #888888;
+    background: rgba(221,214,214,0.7);
     
 }
 .signup-form label {
@@ -464,5 +465,7 @@ h4 {
     .signup-form{
         margin: 20px 10px;
     }
-}
+    #user{
+        height: 630px;
+    }
 }
