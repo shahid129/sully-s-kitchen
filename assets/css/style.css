@@ -249,13 +249,13 @@ h4 {
 }
 
 #find-us {
-    height: 100%;
+    height: 80vh;
     width: 100%;
     display: flex;
-    padding-top: 50px;
+    padding-top: 50px 0;
 }
 .map {
-    height: 50vh;
+    height: 80vh;
     width: 33%;
 }
 .map iframe {
@@ -264,8 +264,8 @@ h4 {
 }
 
 .meet-us {
-    height: 50vh;
-    width: 33%;
+    height: 80vh;
+    width: 100%;
     text-align: center;
     border-top: 1px solid rgb(221, 214, 214);
     border-bottom: 1px solid rgb(221, 214, 214);
@@ -283,8 +283,8 @@ h4 {
 
 .pitch-us {
     float: right;
-    height: 50vh;
-    width: 33%;
+    height: 80vh;
+    width: 100%;
     background-color: #F3F3F3;
 }
 
@@ -432,6 +432,9 @@ h4 {
     height: 100%;
     width:100%;
     text-align: center;
+    }
+    #social li {
+     padding: 20px
     }
     
 }
