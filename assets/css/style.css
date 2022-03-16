@@ -90,6 +90,7 @@ footer{
     /* display: flex;
     justify-content: center; */
     text-align: center;
+    clear:both
 }
 
 
@@ -98,6 +99,10 @@ footer{
     list-style: none;
     display: inline-block;
     padding: 40px 60px;
+}
+/* footer color black */
+#social a{
+    color:black;
 }
 
 h4 {
@@ -119,8 +124,6 @@ h4 {
     background-color: rgb(38, 1, 1);
     border-radius: 5%;
     box-shadow: 5px 10px 8px 10px #888888;
-    overflow: hidden;
-
 }
 
 .full-menu a {
