@@ -86,8 +86,9 @@ header a {
 
 /* footer */
 footer{
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
 }
 
 
@@ -365,6 +366,7 @@ h4 {
     text-transform: capitalize;
     list-style: none;
     text-align: center;
+ 
     
 }
 
@@ -377,6 +379,7 @@ h4 {
 .we-do {
     height: 100%;
     width: 35%;
+
 }
 /* opening hours */
 #opeing-hours{
@@ -391,6 +394,8 @@ h4 {
     border: 2px solid grey;
     padding: 5px;
 }
+
+
 /* media querry */
 /* sub heading move to left */
 @media screen and (max-width: 930px) {
