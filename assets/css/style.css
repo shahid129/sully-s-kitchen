@@ -47,6 +47,7 @@ header a {
 
     display: inline-block;
     list-style: none;
+    overflow: hidden;
 }
 
 #menu a {
