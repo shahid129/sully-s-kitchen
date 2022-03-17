@@ -56,7 +56,7 @@ header a {
     color: black;
     font-size: 1.2em;
     text-transform: uppercase;
-
+    border-right: 1px solid black;
 }
 
 .active {
@@ -91,7 +91,8 @@ footer{
     /* display: flex;
     justify-content: center; */
     text-align: center;
-    clear:both
+    clear: both;
+    padding-top: 1px;
 }
 
 
@@ -151,7 +152,7 @@ h4 {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    overflow: auto;
+    /* overflow: auto; */
     padding-right: 30px;
 }
 .our-menu{
@@ -511,7 +512,7 @@ h4 {
     }
     .we-do {
         height: 50%;
-        width: 100%;
+        width: 55%;
         overflow: auto;
     }
     /* gallery under 720px */
