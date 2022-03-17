@@ -399,6 +399,31 @@ h4 {
     width: 35%;
 
 }
+
+/* gallery */
+#gallery ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#gallery ul li {
+    height: 40vh;
+    width: 30%;
+    /* flex-grow: 1; */
+    list-style: none;
+
+}
+
+#gallery ul li img {
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    vertical-align: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 /* opening hours */
 #opeing-hours{
     text-align: center;
