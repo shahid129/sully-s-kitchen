@@ -3,7 +3,7 @@
 * {
     margin: 0;
     border: 0;
-    overflow: auto;
+    /* overflow: auto; */
 }
 body {
     font-family: Smooch Sans, sans-serif;
@@ -100,6 +100,7 @@ footer{
     list-style: none;
     display: inline-block;
     padding: 40px 60px;
+    font-size: small; 
 }
 /* footer color black */
 #social a{
@@ -390,7 +391,7 @@ h4 {
 .about-company {
     height: 100%;
     width: 55%;
-
+    overflow: auto;
 }
 
 .we-do {
@@ -467,5 +468,17 @@ h4 {
     }
     #user{
         height: 630px;
+    }
+    #about-us {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-around;
+    }
+    .we-do {
+        height: 100%;
+        width: 100%;
     }
 }
