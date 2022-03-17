@@ -3,7 +3,7 @@
 * {
     margin: 0;
     border: 0;
-    /* overflow: auto; */
+    /* overflow: hidden; */
 }
 body {
     font-family: Smooch Sans, sans-serif;
@@ -47,7 +47,7 @@ header a {
 
     display: inline-block;
     list-style: none;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 #menu a {
@@ -459,16 +459,16 @@ h4 {
   @media screen and (max-width: 720px) {
 
     #menu li{
-        justify-content:center;
-        display:inline-flex;
+        justify-content: center;
+        display: inline-flex;
         padding-top: 20px;
     }
     header {
-        display:inline
+        display: inline;
     
     }
     #logo, #sub-heading{
-        padding-left:9%;
+        padding-left: 9%;
     }
     #find-us {
      height: 100%;
@@ -478,17 +478,17 @@ h4 {
     }
     .meet-us, .map, .pitch-us {
     height: 100%;
-    width:100%;
+    width: 100%;
     text-align: center;
     }
     .map {
-        padding-top:50px
+        padding-top: 50px
     }
     #social li {
      padding: 10px
     }
     .signup {
-        padding:inherit;
+        padding: inherit;
     }
     #menu-curry{
         flex-direction: column;
@@ -508,8 +508,9 @@ h4 {
         align-content: space-around;
     }
     .we-do {
-        height: 100%;
+        height: 50%;
         width: 100%;
+        overflow: auto;
     }
     /* gallery under 720px */
     #gallery ul {
