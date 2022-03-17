@@ -511,4 +511,17 @@ h4 {
         height: 100%;
         width: 100%;
     }
+    /* gallery under 720px */
+    #gallery ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #gallery ul li {
+        height: 40vh;
+        width: 95%;
+        /* flex-grow: 1; */
+        list-style: none;
+        margin: auto;
+    }
 }
