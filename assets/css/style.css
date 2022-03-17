@@ -401,6 +401,9 @@ h4 {
 }
 
 /* gallery */
+#gallery {
+    padding: 30px 0;
+}
 #gallery ul {
     display: flex;
     flex-wrap: wrap;
@@ -408,9 +411,11 @@ h4 {
 }
 #gallery ul li {
     height: 40vh;
-    width: 30%;
+    width: 33%;
     /* flex-grow: 1; */
     list-style: none;
+    margin-top: 10px;
+
 
 }
 
