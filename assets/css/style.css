@@ -530,3 +530,10 @@ h2 {
         margin: auto;
     }
 }
+@media screen and (max-width: 325px) {
+    #menu li{
+      justify-content: center;
+      display: block;
+        
+    }
+}
