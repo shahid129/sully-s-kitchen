@@ -530,10 +530,14 @@ h2 {
         margin: auto;
     }
 }
+/* media screen for 325px or less */
 @media screen and (max-width: 325px) {
     #menu li{
       justify-content: center;
-      display: block;
-        
+      display: block;   
+    }
+    /* footer */
+    #social li {
+        font-size:.4em
     }
 }
