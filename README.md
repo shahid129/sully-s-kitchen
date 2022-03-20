@@ -37,19 +37,59 @@ The color contrast between the foreground and the background is well maintained 
 
 ## FEATURES
 
+ <details>
+ <summary> Navigation Menu</summary>
+[See Image](/assets/docs/navigation.png)
+The Navigation Menu is inside the header section and stays on the right hand side of the laptop screen. As the screen becomes smaller, or on small mobile device the menus comes down the logo. I did not use the hamburger menu because I tried to stick to course module as much as I could, even though I used css flexbox.
+</details>
+
  
+<details>
+<summary>Logo</summary>
 
- > Navigation Menu [See Image](/assets/docs/navigation.png)
+[See Image](/assets/docs/logo.png)
+Logo is simply the name of the restaurant with a sub heading underneath it. The logo creates a link to the home page and can be accessed from anywhere within the site.
+</details>
 
- The Navigation Menu is inside the header section and stays on the right hand side of the laptop screen. As the screen becomes smaller, or on small mobile device the menus comes down the logo. I did not use the hamburger menu because I tried to stick to course module as much as I could, even though I used css flexbox.
- > Logo [See Image](/assets/docs/logo.png)
- 
- Logo is simply the name of the restaurant with a sub heading underneath it. The logo creates a link to the home page and can be accessed from anywhere within the site.
 
- > Favicon [See Image](/assets/docs/favicon.png)
+<details>
+<summary>Favicon</summary>
 
+[See Image](/assets/docs/favicon.png)
 Favicon is simply  the first two letters of Sully's Kitchen. Blue background with white text gives a nice, clean professional look Favicon is created using the [favicon](https://favicon.io/favicon-generator/) website.
+</details>
 
-> Hero Image [See Image](/assets/docs/hero.png)
+<details>
+<summary>Hero</summary>
+
+[See Image](/assets/docs/hero.png)
 
 The Hero image was chosen very carefully to give a good flavour of curry and Indian restaurant. Different types of spices and seeds gives a proper indication about what type of restaurant is this.
+</details>
+
+
+<details>
+<summary>Footer</summary>
+
+[See Image](/assets/docs/footer.png)
+
+The footer section includes all the social media links that Sully's Restaurant is connected with. The name of the social media is specified along with its logo so that anyone can understand. the layout stays same for even smaller devices up to 252px. Footer is situated at the bottom of all the pages.
+</details>
+
+<details>
+<summary>Our Menu</summary>
+
+[See Image](/assets/docs/our-menu.png)
+
+The our menu section is placed in the first page without creating a menu option. I thought it would be easier for customers to see the menu as soon as the visit the site. They do not have to look for menu in navigation bar. At the bottom of the menu there is a [FULL MENU](/assets/docs/more-menu.png) button which will take them to the rest of the menu. The full menu page has two sections. First section has the rest of the main course. The second section has sides, drinks and desserts with their price indicated in the menu.
+</details>
+
+<details>
+<summary>Find Us</summary>
+
+[See Image](/assets/docs/find-us.png)
+
+Find us section is situated at the bottom of the main page just above the footer. It includes a map with exact location on it, an imaginary address of the location and message us section. In the message us section a customer can contact us directly by putting their details in it.
+</details>
+
+
