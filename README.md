@@ -8,6 +8,7 @@
 - [Description](#description)
 - [Themes](#themes)
 - [Features](#features)
+- [Testing](#testing)
 - Technology
 - Deployment 
 - Credits
