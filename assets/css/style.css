@@ -397,6 +397,10 @@ h2 {
 #gallery {
     padding: 30px 0;
 }
+#gallery h2 {
+    margin: 2%;
+    font-size: 2em;
+}
 
 #gallery ul {
     display: flex;
