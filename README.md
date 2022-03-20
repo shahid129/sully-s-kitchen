@@ -5,9 +5,9 @@
 
 ## TABLE OF CONTENTS
 
-- [Description](#-description)
-- [Themes](#-themes)
-- [Features](#-features)
+- [Description](#description)
+- [Themes](#themes)
+- [Features](#features)
 - Technology
 - Deployment 
 - Credits
