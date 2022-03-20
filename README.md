@@ -5,9 +5,9 @@
 
 ## TABLE OF CONTENTS
 
-- [Description](##-description)
-- [Themes](##-themes)
-- Features
+- [Description](#-description)
+- [Themes](#-themes)
+- [Features](#-features)
 - Technology
 - Deployment 
 - Credits
@@ -91,5 +91,22 @@ The our menu section is placed in the first page without creating a menu option.
 
 Find us section is situated at the bottom of the main page just above the footer. It includes a map with exact location on it, an imaginary address of the location and message us section. In the message us section a customer can contact us directly by putting their details in it.
 </details>
+
+<details>
+<summary>Sign Up</summary>
+
+[See Image](/assets/docs/sign-up.png)
+
+Sign Up section can be accessed from the navigation menu. Background shadow is added to the sign up form so it looks like the form is floating. it also has transparent look. Customers can sign up with the restaurant to keep themselves updated with seasonal promotion and changes in menu.
+</details>
+
+<details>
+<summary>About Us</summary>
+
+[See Image](/assets/docs/about-us.png)
+
+About Us page multiple section. A short description about our company followed by what are the services we do. Few pictures of curry, desserts and images of our fine dining restaurant. At the bottom it has opening hours for lunch and dinner.
+</details>
+
 
 
