@@ -12,10 +12,10 @@
 - Technology
 - Deployment 
 - Credits
-- Aknowledgement
+- acknowledgement
 - Author Info
 
-A very Comprehensive and easy to navigate restaurant menu is created to give the audience full comfortness while using the restaurant menu. It is a fine dining restaurant where people will have to book in advance to ensure the avalablity of the seat-in capacity. in this way the customers will get 100% attention of the staff, and proper guest care would be taken. customer satisfiction and quality of the food is our main aim.
+A very Comprehensive and easy to navigate restaurant menu is created to give the audience full comfort while using the restaurant menu. It is a fine dining restaurant where people will have to book in advance to ensure the availability of the seat-in capacity. in this way the customers will get 100% attention of the staff, and proper guest care would be taken. customer satisfaction and quality of the food is our main aim.
 
 ## DESCRIPTION
 This project was created with the intention of making a user friendly website, where customers can easily navigate between the pages and be able to find their required documents. The site is simple enough even for a person with no or little experience would be able to use it.
@@ -108,6 +108,15 @@ Sign Up section can be accessed from the navigation menu. Background shadow is a
 
 About Us page multiple section. A short description about our company followed by what are the services we do. Few pictures of curry, desserts and images of our fine dining restaurant. At the bottom it has opening hours for lunch and dinner.
 </details>
+
+## TESTING
+
+Testing for this website was done several people in several ways. My brother checked the website and suggested a lot small changes to make it look better.My mentor seun played a vital role for building this.
+
+Online testing was done using the online validator websites and they are -
+
+- W3C Validator
+- Jigsaw css validator
 
 
 
