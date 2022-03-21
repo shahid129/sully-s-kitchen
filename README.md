@@ -11,7 +11,7 @@
 - [Testing](#testing)
 - [Responsivity](#responsivity)
 - [Technology](#echnology)
-- Deployment 
+- [Deployment](#deployment) 
 - Credits
 - acknowledgement
 - Author Info
@@ -154,3 +154,15 @@ Screenshots of all these results are below -
 - Udemy
 - W3Schools.com
 - MDN Web Docs
+
+## DEPLOYMENT
+
+The project was made using gitpod and was pushed to github using gitpod's terminal. The project was pushed after each section or whenever there was a change in the code.
+
+### Deploying on github pages
+1. Log in to Github or create an account.
+2. Locate the Github repository on the left.
+3. Select setting for the repository.
+4. On the left hand side select Pages.
+5. Under Source click dropdown menu and select Main.
+6. Once the selection is done, the page will refresh automatically, meaning the page is deployed.
