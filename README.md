@@ -28,7 +28,7 @@ The themes chosen for this project was a restaurant and I wanted to make the pag
  - Raleway for logo and heading
  - Mmooch Sans for body
 
- I used only two minimum colors all throughout the project and they are
+ I used only few colors all throughout the project and they are
  - rgb(221, 214, 214) for background.
  - black for text.
  - #F3F3F3 for background.
@@ -150,7 +150,7 @@ Bugs and issues are very common while making a webpage. Exactly like that I ran 
 - Navigation Bar
     - Navigation bar for small devices was not working even though the code for media query was right. After spending few hours on it, i figured out a (.) sign in a class was missing.
 - Iframe 
-    - After running the lighthouse, i figuired out that the name attribute was missing for iframe.
+    - After running the lighthouse, i figured out that the name attribute was missing for iframe.
 
 >I wrote most of the html and css in vs code and copied and pasted it. that was a mistake. Hence git add, commit and push is missing in the beginning.
 
@@ -170,11 +170,20 @@ Bugs and issues are very common while making a webpage. Exactly like that I ran 
 ### RESOURCES
 - Code Institute Curriculum
 - Google Search Engine
-- Stackoverflow
+- Stack Overflow
 - Youtube
 - Udemy
 - W3Schools.com
 - MDN Web Docs
+
+Balsamic wireframes was used to make the basic layout planning of the pages. Images of balsamic wireframs are -
+
+[Home](../sully-s-kitchen/assets/docs/balsanic-home.png)
+[Full Menu](../sully-s-kitchen/assets/docs/balsanic-full-menu.png)
+[Sign Up](../sully-s-kitchen/assets/docs/balsanic-sign-up.png)
+[About Us](../sully-s-kitchen/assets/docs/balsanic-about-us.png)
+
+
 
 ## DEPLOYMENT
 
