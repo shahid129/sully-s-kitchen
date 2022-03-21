@@ -10,8 +10,7 @@
 - [Features](#features)
 - [Testing](#testing)
 - [Responsivity](#responsivity)
-- 
-- Technology
+- [Technology](#echnology)
 - Deployment 
 - Credits
 - acknowledgement
@@ -137,4 +136,21 @@ Screenshots of all these results are below -
 ## RESPONSIVITY
 [Am I Responsive](http://ami.responsivedesign.is/#) is the website that allowed me to check how responsive my website is. Minimum viewport is 320x480px scaled down to scale(0.219) which is great to check if the site is suitable for small devices along with larger screens. 
 
-## 
+## TECHNOLOGY
+- HTML
+- CSS
+- Gitpod
+- Github
+- Vs Code
+- Font Awesome
+- Google Font
+- Markdown
+
+### RESOURCES
+- Code Institute Curriculum
+- Google Search Engine
+- Stackoverflow
+- Youtube
+- Udemy
+- W3Schools.com
+- MDN Web Docs
