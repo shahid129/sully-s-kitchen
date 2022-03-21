@@ -12,7 +12,7 @@
 - [Responsivity](#responsivity)
 - [Technology](#echnology)
 - [Deployment](#deployment) 
-- Credits
+- [Credits](#credits)
 - acknowledgement
 - Author Info
 
@@ -166,3 +166,20 @@ The project was made using gitpod and was pushed to github using gitpod's termin
 4. On the left hand side select Pages.
 5. Under Source click dropdown menu and select Main.
 6. Once the selection is done, the page will refresh automatically, meaning the page is deployed.
+
+
+## CREDITS
+The main idea and the layout of the page was my idea. my brother and wife helped me with this.
+
+>The images for this project was taken from [Unsplash](https://unsplash.com/)
+
+>The Favicon for this project was taken from [Favicon](https://favicon.io/)
+
+>The Icon for this project was taken from [Font Awesome](https://fontawesome.com/)
+
+>The Font for this project was taken from [Google Fonts](https://fonts.google.com/)
+
+> To better understand the code and a lot of help was taken from
+- [Stack Overflow](https://stackoverflow.com/)
+- [W3Schools](https://www.w3schools.com/)
+- [CSS Tricks](https://css-tricks.com/)
