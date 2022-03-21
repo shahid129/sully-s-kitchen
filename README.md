@@ -10,10 +10,11 @@
 - [Features](#features)
 - [Testing](#testing)
 - [Responsivity](#responsivity)
+- [Issues and Bugs](#issuesandbugs)
 - [Technology](#echnology)
 - [Deployment](#deployment) 
 - [Credits](#credits)
-- acknowledgement
+- [Acknowledgement](#acknowledgement)
 - Author Info
 
 A very Comprehensive and easy to navigate restaurant menu is created to give the audience full comfort while using the restaurant menu. It is a fine dining restaurant where people will have to book in advance to ensure the availability of the seat-in capacity. in this way the customers will get 100% attention of the staff, and proper guest care would be taken. customer satisfaction and quality of the food is our main aim.
@@ -136,6 +137,21 @@ Screenshots of all these results are below -
 ## RESPONSIVITY
 [Am I Responsive](http://ami.responsivedesign.is/#) is the website that allowed me to check how responsive my website is. Minimum viewport is 320x480px scaled down to scale(0.219) which is great to check if the site is suitable for small devices along with larger screens. 
 
+## ISSUES AND BUGS
+
+Bugs and issues are very common while making a webpage. Exactly like that I ran into few of them. 
+- Font Awesome 
+    - In the meet us section, I tried to add an icon for the address, The icon would not appear. But the icons appears at the other places.
+
+- Google Lighthouse
+    -  `Links do not have a discernible name`
+    I tried to fix it but i think this beyond the capacity of this project and it has something to do with js.
+     
+- Navigation Bar
+    - Navigation bar for small devices was not working even though the code for media query was right. After spending few hours on it, i figured out a (.) sign in a class was missing.
+- Iframe 
+    - After running the lighthouse, i figuired out that the name attribute was missing for iframe.
+
 ## TECHNOLOGY
 - HTML
 - CSS
@@ -145,6 +161,7 @@ Screenshots of all these results are below -
 - Font Awesome
 - Google Font
 - Markdown
+- Balsamic
 
 ### RESOURCES
 - Code Institute Curriculum
@@ -183,3 +200,11 @@ The main idea and the layout of the page was my idea. my brother and wife helped
 - [Stack Overflow](https://stackoverflow.com/)
 - [W3Schools](https://www.w3schools.com/)
 - [CSS Tricks](https://css-tricks.com/)
+
+## ACKNOWLEDGEMENT
+
+
+> I would like to thank you my wife for making time for me so i can study while she minds the kids. Hats off to her.
+
+> I would like to thank my tutor, Kasia, and my mentor, Seun, for their invaluable help and guidance throughout the process. The slack group Jan-2022-lwetb, and all the fellow mates from slack
+
