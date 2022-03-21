@@ -10,6 +10,7 @@
 - [Features](#features)
 - [Testing](#testing)
 - [Responsivity](#responsivity)
+- 
 - Technology
 - Deployment 
 - Credits
@@ -114,7 +115,7 @@ About Us page multiple section. A short description about our company followed b
 
 Testing for this website was done several people in several ways. My brother checked the website and suggested a lot small changes to make it look better.My mentor Seun played a vital role for building this.
 
-Online testing was done using the online validator websites and they are -
+Online testing for html and css was done using the online validator websites and they are -
 
 - W3C Validator
 - Jigsaw css validator
@@ -123,7 +124,17 @@ Screenshots of all these results are below-
 
 [Home](/assets/docs/home.png) [Full Menu](/assets/docs/full-menu.png) [Sign Up](/assets/docs/signup.png) [About Us](/assets/docs/aboutus.png) [Css](/assets/docs/css.png)
 
+Google Lighthouse was used to check the Performance, Accessibility, Best Practice and SEO for all the pages. 
 
-## RESPOSNSIVITY
+Screenshots of all these results are below -
+
+[HOME PAGE](/assets/docs/lightouse-home.png)
+[FULL MENU](/assets/docs/lightouse-fullmenu.png)
+[SIGN UP](/assets/docs/lightouse-signup.png)
+[ABOUT US](/assets/docs/lighthouse-aboutus.png)
+
+
+## RESPONSIVITY
 [Am I Responsive](http://ami.responsivedesign.is/#) is the website that allowed me to check how responsive my website is. Minimum viewport is 320x480px scaled down to scale(0.219) which is great to check if the site is suitable for small devices along with larger screens. 
 
+## 
