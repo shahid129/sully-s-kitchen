@@ -10,7 +10,7 @@
 - [Features](#features)
 - [Testing](#testing)
 - [Responsivity](#responsivity)
-- [Issues and Bugs](#issuesandbugs)
+- [Issues and Bugs](#issues-and-bugs)
 - [Technology](#echnology)
 - [Deployment](#deployment) 
 - [Credits](#credits)
@@ -152,7 +152,9 @@ Bugs and issues are very common while making a webpage. Exactly like that I ran 
 - Iframe 
     - After running the lighthouse, i figuired out that the name attribute was missing for iframe.
 
-I wrote most of the html and css in vs code and copied and pasted it. that was a mistake. Hence git add, commit and push is missing in the beginning.
+>I wrote most of the html and css in vs code and copied and pasted it. that was a mistake. Hence git add, commit and push is missing in the beginning.
+
+>I have tested my site on Google Chrome, Firefox and Safari. One of the issues and bugs, I was not able fix is that, the images for about us and sign up page is not displaying in Safari. On the other hand it is absolutely fine Google Chrome and Firefox. I checked the file path thoroughly and nothing was detected.
 
 ## TECHNOLOGY
 - HTML
