@@ -152,6 +152,8 @@ Bugs and issues are very common while making a webpage. Exactly like that I ran 
 - Iframe 
     - After running the lighthouse, i figuired out that the name attribute was missing for iframe.
 
+I wrote most of the html and css in vs code and copied and pasted it. that was a mistake. Hence git add, commit and push is missing in the beginning.
+
 ## TECHNOLOGY
 - HTML
 - CSS
