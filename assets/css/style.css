@@ -9,6 +9,7 @@ body {
     font-weight: 400;
     color: black;
     font-size: 1.2em;
+    /* position: absolute; */
 }
 
 h1, h3 {
@@ -172,6 +173,14 @@ h2 {
     text-transform: capitalize;
 
 }
+/* adjust price layout */
+.menu-right span {
+    float: right;
+}
+
+.menu-left span {
+    float: right;
+}
 /* more menu */
 #more-menu {
     box-sizing: border-box;
@@ -204,7 +213,7 @@ h2 {
 /* sign up form */
 #user {
     clear: left;
-    background: url("..//images/form-image.avif");
+    background: url("../images/form-image.avif");
     background-size: cover;
     background-position: center;
     height: 610px;
@@ -440,7 +449,7 @@ h2 {
 }
 
 
-/* media querry */
+/* media query */
 /* sub heading move to left */
 @media screen and (max-width: 930px) {
     #sub-heading {
