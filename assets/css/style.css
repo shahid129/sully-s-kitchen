@@ -451,7 +451,7 @@ h2 {
 
 /* media query */
 /* sub heading move to left */
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 935px) {
     #sub-heading {
         justify-content:left;
     }
