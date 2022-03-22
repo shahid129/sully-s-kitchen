@@ -387,19 +387,15 @@ h2 {
 }
 /* about us page */
 #about-us {
-    background-image: linear-gradient(90deg, rgba(199,116,0,0) 0%, rgba(20,43,42,1) 90%),
-                        url("../images/about-us.avif");
-    background-size: cover;
+    background-color: #F3F3F3;
     box-sizing: border-box;
     display: flex;
     height: 60vh;
     width: 100%;
-    color: rgb(221, 214, 214);
     justify-content: space-between;
 }
 
 .about-company p {
-    color: rgb(221, 214, 214);
     line-height: 1.2em;
     text-transform: capitalize;
     padding: 2% 5% 0 5%;
@@ -408,7 +404,6 @@ h2 {
 
 .we-do li {
     padding-top: 2%;
-    color: rgb(221, 214, 214);
     line-height: 1.2em;
     text-transform: capitalize;
     list-style: none;
@@ -433,7 +428,7 @@ h2 {
 }
 #gallery h2 {
     margin: 2%;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 #gallery ul {
@@ -466,9 +461,6 @@ h2 {
     padding-top: 30px;
     width: 80%;
     text-transform: uppercase;
-    display: block;
-    overflow-x: auto;
-    white-space: nowrap;
 }
     
 #opeing-hours th, td {
@@ -569,6 +561,12 @@ h2 {
         list-style: none;
         margin: auto;
     }
+
+    /* opening hours */
+    #opeing-hours {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
 }
 /* media screen for 325px or less */
 @media screen and (max-width: 325px) {
