@@ -199,6 +199,13 @@ h2 {
     
 }
 
+/* price color for all the menu */
+.menu-right span, .menu-left span{
+    font-size: 1.3em;
+    font-weight: bolder;
+    letter-spacing: .1em;
+}
+
 /* side order menu */
 .side-order {
     height: 50vh;
@@ -300,7 +307,7 @@ h2 {
 
 .meet-us h2 {
     margin-top: 8%;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .meet-us p {
     margin: 30px 10px;
@@ -317,8 +324,9 @@ h2 {
 }
 
 .pitch-us h2{
-    font-size: 2em;
+    font-size: 1.5em;
     margin-left: 0;
+    margin-top: 8%;
 }
 .pitch-us form{
     margin-left: 40px;
