@@ -467,21 +467,28 @@ h2 {
     border: 2px solid grey;
     padding: 5px;
 }
+
+/* media query */
 @media screen and (max-width: 935px){
     #menu-curry{
         flex-direction: column;
     }
+    .menu-right, .menu-left{
+        padding: 0;
+    }
 }
 
-/* media query */
 /* sub heading move to left */
-@media screen and (max-width: 935px) {
+@media screen and (max-width: 1040px) {
     #sub-heading {
         justify-content:left;
     }
     #menu li{
         justify-content:center;
         display:block;
+    }
+    #logo, #sub-heading{
+        padding-left: 9%;
     }
 }
 /* screen size smaller than 720px */
@@ -496,9 +503,7 @@ h2 {
         display: inline;
     
     }
-    #logo, #sub-heading{
-        padding-left: 9%;
-    }
+    
 /* media query for find us */
     #find-us {
         height: 100%;
@@ -525,9 +530,9 @@ h2 {
         padding: inherit;
     }
 
-    /* #menu-curry{
+    #menu-curry{
         flex-direction: column;
-    } */
+    }
 
     .signup-form{
         margin: 20px 10px;
