@@ -129,16 +129,16 @@ h2 {
     overflow: hidden;
 }
 .full-menu {
-    border: 2px solid black;
     margin-top: auto;
     justify-content: center;
     text-align: center;
     align-self: center;
     padding: 10px 15px;
-    width: 20%;
+    /* width: 20%; */
     background-color: rgb(38, 1, 1);
     border-radius: 5%;
     box-shadow: 5px 10px 8px 10px #888888;
+    max-width: 10%;
 }
 
 .full-menu a {
@@ -211,7 +211,7 @@ h2 {
 
 /* price color for all the menu */
 .menu-right span, .menu-left span{
-    font-size: 1.3em;
+    /* font-size: 1.3em; */
     font-weight: bolder;
     letter-spacing: .1em;
 }
@@ -467,7 +467,11 @@ h2 {
     border: 2px solid grey;
     padding: 5px;
 }
-
+@media screen and (max-width: 935px){
+    #menu-curry{
+        flex-direction: column;
+    }
+}
 
 /* media query */
 /* sub heading move to left */
@@ -521,9 +525,9 @@ h2 {
         padding: inherit;
     }
 
-    #menu-curry{
+    /* #menu-curry{
         flex-direction: column;
-    }
+    } */
 
     .signup-form{
         margin: 20px 10px;
@@ -567,6 +571,7 @@ h2 {
         display: block;
         overflow-x: auto;
         white-space: nowrap;
+    }
 }
 /* media screen for 325px or less */
 @media screen and (max-width: 325px) {
