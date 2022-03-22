@@ -56,6 +56,7 @@ header a {
     font-size: 1.2em;
     text-transform: uppercase;
     /* border-right: 1px solid black; */
+    width: 25%;
 }
 
 .active {
@@ -65,9 +66,11 @@ header a {
 #menu li a {
     transition: .3s ease 0s;
 }
-
-#menu li a:hover{
-    text-decoration: underline;
+/* hover effect on navigation and footer */
+#menu li:hover, #social li:hover{
+    /* text-decoration: underline; */
+    background-color: #209CEE;
+    border-radius: 5%;
 }
 
 /* hero image */
@@ -97,7 +100,8 @@ footer{
     text-decoration: none;
     list-style: none;
     display: inline-block;
-    padding: 40px 60px;
+    margin: 40px 60px;
+    padding: 10px;
     font-size: small; 
 }
 /* footer color black */
@@ -135,6 +139,10 @@ h2 {
     text-decoration: none;
     color: rgb(221, 214, 214);
 
+}
+/* font awesome chilli color */
+.fa-pepper-hot{
+    color: rgb(167, 9, 9);
 }
 
 .full-menu:hover{
