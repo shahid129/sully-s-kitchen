@@ -128,17 +128,19 @@ h2 {
     margin-top: 30px;
     overflow: hidden;
 }
+.f-menu{
+    background-color: #F3F3F3;
+}
+
 .full-menu {
     margin-top: auto;
-    justify-content: center;
     text-align: center;
-    align-self: center;
+    margin: auto;
     padding: 10px 15px;
-    /* width: 20%; */
     background-color: rgb(38, 1, 1);
     border-radius: 5%;
     box-shadow: 5px 10px 8px 10px #888888;
-    max-width: 10%;
+    max-width: 150px;
 }
 
 .full-menu a {
@@ -191,6 +193,7 @@ h2 {
     text-transform: capitalize;
 
 }
+
 /* adjust price layout */
 .menu-right span {
     float: right;
