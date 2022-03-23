@@ -238,7 +238,7 @@ h2 {
 /* sign up form */
 #user {
     clear: left;
-    background: url("../images/form-image.avif");
+    background-color: #F3F3F3;
     background-size: cover;
     background-position: center;
     height: 610px;
@@ -479,7 +479,7 @@ h2 {
 }
 
 /* sub heading move to left */
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1049px) {
     #sub-heading {
         justify-content:left;
     }
@@ -521,9 +521,10 @@ h2 {
     .map {
         padding-top: 50px
     }
-
+    /* footer */
     #social li {
-        padding: 10px
+        padding: 2px;
+        margin: 10px;
     }
 
     .signup {
@@ -579,7 +580,7 @@ h2 {
     }
 }
 /* media screen for 325px or less */
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 405px) {
     #menu li{
       justify-content: center;
       display: block;   
