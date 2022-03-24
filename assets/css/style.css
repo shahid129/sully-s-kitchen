@@ -66,7 +66,6 @@ header a {
 }
 /* hover effect on navigation and footer */
 #menu li:hover, #social li:hover{
-    /* text-decoration: underline; */
     background-color: #209CEE;
     border-radius: 5%;
 }
@@ -214,7 +213,6 @@ h2 {
 
 /* price color for all the menu */
 .menu-right span, .menu-left span{
-    /* font-size: 1.3em; */
     font-weight: bolder;
     letter-spacing: .1em;
 }
@@ -226,7 +224,7 @@ h2 {
     text-align: center;
     justify-content: space-between;
     padding-top: 2%;
-  
+    height: auto;
 }
 .side-order li {
     padding-top: 2%;
@@ -237,6 +235,7 @@ h2 {
     padding-right: 10%;
     float: right;
 }
+
 
 /* sign up form */
 #user {
@@ -505,6 +504,14 @@ h2 {
     header {
         display: inline;
     
+    }
+    /* more menu */
+    #more-menu{
+        flex-direction: column;
+        height: auto;
+    }
+    side-order {
+        height: 100%;
     }
     
 /* media query for find us */
