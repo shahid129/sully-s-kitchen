@@ -9,7 +9,6 @@ body {
     font-weight: 400;
     color: black;
     font-size: 1.2em;
-    /* position: absolute; */
 }
 
 h1, h3 {
@@ -87,19 +86,30 @@ header a {
 
 /* footer */
 footer{
-    text-align: center;
-    clear: both;
-    padding-top: 1px;
+    padding-top: 5px;
+    background-color: #f3f3f3;
+    margin-top: 30px;
 }
 
+footer h2 {
+    margin: 5px 0;
+    font-size: 1em;
+    text-align: center;
+}
+
+#social {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+}
 
 #social li {
     text-decoration: none;
     list-style: none;
-    display: inline-block;
-    margin: 40px 60px;
-    padding: 10px;
-    font-size: small; 
+    padding: 10px 40px;
+    font-size: small;
 }
 /* footer color black */
 #social a{
@@ -201,13 +211,13 @@ h2 {
 .menu-left span {
     float: right;
 }
-/* more menu */
+/* more menu  or side orders*/
 #more-menu {
     box-sizing: border-box;
     display: flex;
     height: 50vh;
     width: 100%;
-    border-bottom: 2px solid #F3F3F3;
+    /* border-bottom: 2px solid #F3F3F3; */
     
 }
 
@@ -297,7 +307,7 @@ h2 {
     height: 450px;
     width: 100%;
     display: flex;
-    padding-top: 50px;
+    margin-top: 30px;
 }
 .map {
     height: 100%;
@@ -532,6 +542,7 @@ h2 {
         padding-top: 50px
     }
     /* footer */
+    
     #social li {
         padding: 2px;
         margin: 10px;
@@ -598,5 +609,8 @@ h2 {
     /* footer */
     #social li {
         font-size:.4em
+    }
+    #social {
+        padding: 0;
     }
 }
