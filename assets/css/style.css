@@ -177,7 +177,7 @@ h2 {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding-right: 30px;
+    /* padding-right: 30px; */
 }
 .our-menu{
     text-align: center;
@@ -188,7 +188,7 @@ h2 {
     width: 100%;
     text-align: center ;
     line-height: 2em;
-    padding: 2% 5%;
+    padding: 2% 2%;
     text-transform: capitalize;
     overflow: hidden;
 
@@ -198,19 +198,47 @@ h2 {
     width: 100%;
     text-align: center;
     line-height: 2em;
-    padding: 2% 5%;
+    padding: 2% 2%;
     text-transform: capitalize;
 
 }
+/* image desin for all the curry */
+.curry-image {
+    /* width: 400px;
+    height: 250px; */
+    /* border: 1px solid red; */
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    align-items: center;
+}
+
+.curry-image img {
+    width: 140px;
+    height: auto;
+    border: 1px solid black;
+    background-size: cover;
+    border-radius: 5px;
+}
+.curry-image p {
+     margin: 0 40px;
+    text-align: left;
+    padding-left: 5px;
+    width: 100%;
+}
+/* headings for curry h3 */
+#menu-curry h3 {
+    text-align: start;
+}
 
 /* adjust price layout */
-.menu-right span {
+/* .menu-right span {
     float: right;
 }
 
 .menu-left span {
     float: right;
-}
+} */
 /* more menu  or side orders*/
 #more-menu {
     box-sizing: border-box;
@@ -223,8 +251,10 @@ h2 {
 
 /* price color for all the menu */
 .menu-right span, .menu-left span{
-    font-weight: bolder;
+    font-size: x-large;
+    color: darkred;
     letter-spacing: .1em;
+    float: right;
 }
 
 /* side order menu */
@@ -338,7 +368,7 @@ h2 {
 
 /* meet us section */
 .pitch-us {
-    float: right;
+    /* float: right; */
     height: 100%;
     width: 100%;
     background-color: #F3F3F3;
@@ -480,13 +510,16 @@ h2 {
     padding: 5px;
 }
 
-/* media query */
+/* media query for 935px and below */
 @media screen and (max-width: 935px){
-    #menu-curry{
+    /* #menu-curry{
         flex-direction: column;
-    }
+    } */
     .menu-right, .menu-left{
-        padding: 0;
+        /* padding: 0; */
+    }
+    .curry-image{
+        min-height: 270px;
     }
 }
 
@@ -519,6 +552,13 @@ h2 {
     #more-menu{
         flex-direction: column;
         height: auto;
+    }
+    .menu-left, .menu-right {
+        padding: 0;
+    }
+
+    .menu-right span, .menu-left span {
+        float: right;
     }
     side-order {
         height: 100%;
@@ -554,6 +594,9 @@ h2 {
 
     #menu-curry{
         flex-direction: column;
+    }
+    .curry-image {
+        min-height: 0;
     }
 
     .signup-form{
