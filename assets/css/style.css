@@ -12,7 +12,7 @@ body {
     font-size: 1.2em;
 }
 
-h1, h3 {
+h1, h2 {
     font-family: Raleway, sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
@@ -121,7 +121,7 @@ footer h2 {
     color:black;
 }
 
-/* all h3 fonts */
+/* all h2 fonts */
 h2 {
     font-family: Raleway, sans-serif;
     text-transform: uppercase;
@@ -237,9 +237,10 @@ h2 {
     width: 100%;
 }
 
-/* headings for curry h3 */
-#menu-curry h3 {
+/* headings for curry h2 */
+#menu-curry h2 {
     text-align: start;
+    font-size: inherit;
 }
 
 /* more menu  or side orders*/
@@ -346,8 +347,8 @@ form {
 
 }
 
-/* h3 terms and cond */
-.terms-and-cond h3 {
+/* h2 terms and cond */
+.terms-and-cond h2 {
     text-align: center;
     padding-bottom: 20px;
     padding-top: 8%;
@@ -369,7 +370,7 @@ form {
     padding-right: 20px;
 }
 
-.form h3, p {
+.form h2, p {
     margin: 20px;
     text-transform: capitalize;
 }
