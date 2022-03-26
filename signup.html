@@ -1,74 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sullys Kitchen, a fine dining restaurant in letterkenny, donegal, rep. of ireland">
-    <meta name="keywords" content="sullys, kitchen, fine dining, restaurant, letterkenny, donegal, ireland">
-    <title>Sign Up</title>
-    <link rel="icon" href="assets/images/favicon.ico">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://kit.fontawesome.com/b16a869446.js" crossorigin="anonymous"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Sullys Kitchen, a fine dining restaurant in letterkenny, donegal, rep. of ireland">
+        <meta name="keywords" content="sullys, kitchen, fine dining, restaurant, letterkenny, donegal, ireland">
+        <title>Sully's Kitchen</title>
+        <link rel="icon" href="assets/images/favicon.ico">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="https://kit.fontawesome.com/b16a869446.js" crossorigin="anonymous"></script>
+    </head>
 <body>
-    <!-- header -->
     <header>
         <a href="index.html">
             <h1 id="logo">Sully's Kitchen </h1>
             <div id="sub-heading">A Fine Dining Restaurant</div>
         </a>
-        <!-- navigation menu -->
+        <!-- navigation  -->
         <nav id="menu">
             <ul>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a class="active" href="index.html" >Home</a>
                 </li>
                 <li>
                     <a href="full-menu.html" >Menu</a>
                 </li>
                 <li>
-                    <a class="active" href="#">sign up</a>
+                    <a href="signup.html">sign up</a>
                 </li>
                 <li>
-                    <a  href="about-us.html">about us</a>
+                    <a href="about-us.html">about us</a>
                 </li>
-
             </ul>
         </nav>
     </header>
-    <!-- sign up  -->
-    <section id="user">
-        <form class="signup-form">
-            <h2>sign up</h2>
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" placeholder="Your First Name" class="user-input" required>
+    <section id="sign-up">
+        <div class="form">
+            <form>
+                <h2>sign up</h2>
+                <h3>Welcome to Sully's Kitchen</h3>
+                <p> please enter your detail to get registered with our service <br>
+                    and get monthly promotions and offers.
+                </p>
+                <div class="user-details">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" placeholder="Your First Name" class="user-input" required>
+                </div>
+                <div class="user-details">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" placeholder="Your Last Name" class="user-input" required> 
+                </div>
+                <div class="user-details">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Email Address" class="user-input" required>
+                </div>
+                <div class="user-details">
+                    <label for="password">your password</label>
+                    <input type="password" id="password" placeholder="Your Password" class="user-input" required>
+                </div>
+                <div class="user-details">
+                    <label for="con-password">Confirm Password</label>
+                    <input type="password" id="con-password" placeholder="Confirm Password" class="user-input" required>
+                </div>
+                <div class= "radio">
+                    <input type="radio" id="male"  value="terms" required>
+                    <label for="male"> Male.</label>
+                </div>
+                <div class= "radio">
+                    <input type="radio" id="female"  value="terms" required>
+                    <label for="female"> Female.</label>
+                </div>
+                <div class= "terms">
+                    <input type="checkbox" id="terms"  value="terms" required>
+                    <label for="terms">I have read the terms and conditions.</label>
+                </div>
+                <div>
+                    <input class="submit" type="submit" value="Sign Up">
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="terms-and-cond">
+        <div>
+            <h3>Terms and conditions</h3>
+                once you have signed up with us, one of our member of staff will call you
+                to discuss  the promotions and offers we have. our promotion is updated every
+                week and you you will get a notification by email. if you do no wish to receive the
+                email please unsubscribe from it.
+                
+                our branch is all over the country and is expanding everyday. customers are valuable to us 
+                and the promotions can be used in any of the branches. privacy of our customers is one of the
+                major aspects that we focus on. we do not disclose any customers details. for more terms and
+                conditions please visit our nearest restaurant.
+        </div>
+    </section>
 
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" placeholder="Your Last Name" class="user-input" required> 
 
-            <label for="email">Email Address</label>
-            <input type="email" id="email" placeholder="Email Address" class="user-input" required>
-
-            <input class="signup" type="submit" value="Sign Up">
-        </form>
-    </section> 
-
-    <!-- footer -->
     <footer>
         <div><h2>FIND US ON</h2></div>
         <ul id="social"> 
             <li>
-                <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noopener"><i class="fab fa-facebook-square"> FACEBOOK</i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"> FACEBOOK</i></a>
             </li>
             <li>
-                <a href="https://www.instagram.com/" aria-label="instagram" target="_blank" rel="noopener"><i class="fab fa-instagram-square"> INSTAGRAM</i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"> INSTAGRAM</i></a>
             </li>
             <li>
-                <a href="https://www.twitter.com/" aria-label="twitter" target="_blank" rel="noopener"> <i class="fab fa-twitter-square"> TWITTER</i></a>
+                <a href="https://www.twitter.com/" target="_blank"> <i class="fab fa-twitter-square"> TWITTER</i></a>
             </li>
-        </ul>
+        </ul> 
     </footer>
-    
 </body>
 </html>
