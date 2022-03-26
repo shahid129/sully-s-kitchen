@@ -1,5 +1,6 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Smooch+Sans:wght@500&display=swap');
+
 * {
     margin: 0;
     border: 0;
@@ -30,6 +31,7 @@ header {
     align-items: center;
     padding: 30px 10%;
 }
+
 header a {
     text-decoration: none;
 }
@@ -41,6 +43,7 @@ header a {
     display: flex;
     justify-content: right;
 }
+
 /* menu buttons */
 #menu li {
 
@@ -63,6 +66,7 @@ header a {
 #menu li a {
     transition: .3s ease 0s;
 }
+
 /* hover effect on navigation and footer */
 #menu li:hover, #social li:hover{
     background-color: #209CEE;
@@ -111,6 +115,7 @@ footer h2 {
     padding: 10px 40px;
     font-size: small;
 }
+
 /* footer color black */
 #social a{
     color:black;
@@ -137,6 +142,7 @@ h2 {
     margin-top: 30px;
     overflow: hidden;
 }
+
 .f-menu{
     background-color: #F3F3F3;
 }
@@ -161,6 +167,7 @@ h2 {
     color: rgb(221, 214, 214);
 
 }
+
 /* font awesome chilli color */
 .fa-pepper-hot{
     color: rgb(167, 9, 9);
@@ -170,6 +177,7 @@ h2 {
     background-color: rgb(66, 51, 51);
     cursor: pointer;
 }
+
 /* menu items */
 #menu-curry {
     background-color: #F3F3F3;
@@ -179,11 +187,13 @@ h2 {
     justify-content: space-between;
     /* padding-right: 30px; */
 }
+
 .our-menu{
     text-align: center;
     font-size: 1.5em;
     padding: 5px 0 20px 0;
 }
+
 .menu-left {
     width: 100%;
     text-align: center ;
@@ -202,7 +212,7 @@ h2 {
     text-transform: capitalize;
 
 }
-/* image desin for all the curry */
+/* image design for all the curry */
 .curry-image {
     /* width: 400px;
     height: 250px; */
@@ -226,27 +236,18 @@ h2 {
     padding-left: 5px;
     width: 100%;
 }
+
 /* headings for curry h3 */
 #menu-curry h3 {
     text-align: start;
 }
 
-/* adjust price layout */
-/* .menu-right span {
-    float: right;
-}
-
-.menu-left span {
-    float: right;
-} */
 /* more menu  or side orders*/
 #more-menu {
     box-sizing: border-box;
     display: flex;
     height: 50vh;
     width: 100%;
-    /* border-bottom: 2px solid #F3F3F3; */
-    
 }
 
 /* price color for all the menu */
@@ -276,28 +277,28 @@ h2 {
     float: right;
 }
 
-
-/* sign up form */
-
 /* sign up form */
 form {
     margin-left: 30px;
 }
+
 #sign-up {
     background-color: #F3F3F3;
 }
+
 .form h2 {
     padding-top: 30px;
 }
+
 .form {
     width: 70%;
     height: auto;
-    /* border: 2px solid red; */
     background-color: rgba(221,214,214,0.9);
     box-shadow: 5px 10px 8px 10px #888888;
     margin: auto;
     text-align: center;
 }
+
 .user-details label {
     display: block;
     padding: 10px 0;
@@ -318,6 +319,7 @@ form {
 .user-input:hover {
     color: #888888;
 }
+
 /* submit button */
 .submit {
     color: rgb(221, 214, 214);
@@ -329,6 +331,7 @@ form {
     text-transform: uppercase;
     left: 10%;
 }
+
 /* terms and conditions */
 .terms-and-cond {
     width: 70%;
@@ -342,6 +345,7 @@ form {
     overflow: auto;
 
 }
+
 /* h3 terms and cond */
 .terms-and-cond h3 {
     text-align: center;
@@ -352,13 +356,13 @@ form {
 .terms-and-cond div {
     text-align: justify;
     width: 80%;
-    margin: 6% auto;
-    
+    margin: 6% auto;   
 }
 
 .terms {
     margin-top: 20px;
 }
+
 .radio {
     display: inline-block;
     margin-top: 20px;
@@ -367,6 +371,7 @@ form {
 
 .form h3, p {
     margin: 20px;
+    text-transform: capitalize;
 }
 
 /* find us section */
@@ -376,10 +381,12 @@ form {
     display: flex;
     margin-top: 30px;
 }
+
 .map {
     height: 100%;
     width: 100%;
 }
+
 .map iframe {
     height: 100%;
     width: 100%;
@@ -405,7 +412,6 @@ form {
 
 /* meet us section */
 .pitch-us {
-    /* float: right; */
     height: 100%;
     width: 100%;
     background-color: #F3F3F3;
@@ -416,9 +422,11 @@ form {
     margin-left: 0;
     margin-top: 8%;
 }
+
 .pitch-us form{
     margin-left: 40px;
 }
+
 .pitch-us label {
     display: block;
     letter-spacing: .1em;
@@ -436,6 +444,7 @@ form {
 .pitch-us input:hover{
     border: 2px solid #888888;
 }
+
 .pitch-us textarea{
     width: 60%;
     height: 60px;
@@ -464,6 +473,7 @@ form {
     background-color: rgb(66, 51, 51);
     cursor: pointer;
 }
+
 /* about us page */
 #about-us {
     background-color: #F3F3F3;
@@ -505,6 +515,7 @@ form {
 #gallery {
     padding: 30px 0;
 }
+
 #gallery h2 {
     margin: 2%;
     font-size: 1.5em;
@@ -530,11 +541,10 @@ form {
     vertical-align: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 /* opening hours */
-#opeing-hours{
+#opening-hours{
     text-align: center;
     margin: 0 auto;
     padding-top: 30px;
@@ -542,19 +552,13 @@ form {
     text-transform: uppercase;
 }
     
-#opeing-hours th, td {
+#opening-hours th, td {
     border: 2px solid grey;
     padding: 5px;
 }
 
 /* media query for 935px and below */
 @media screen and (max-width: 935px){
-    /* #menu-curry{
-        flex-direction: column;
-    } */
-    .menu-right, .menu-left{
-        /* padding: 0; */
-    }
     .curry-image{
         min-height: 270px;
     }
@@ -573,9 +577,9 @@ form {
         padding-left: 9%;
     }
 }
+
 /* screen size smaller than 720px */
   @media screen and (max-width: 720px) {
-
     #menu li{
         justify-content: center;
         display: inline-flex;
@@ -585,6 +589,7 @@ form {
         display: inline;
     
     }
+
     /* more menu */
     #more-menu{
         flex-direction: column;
@@ -674,7 +679,7 @@ form {
     }
 
     /* opening hours */
-    #opeing-hours {
+    #opening-hours {
         display: block;
         overflow-x: auto;
         white-space: nowrap;
