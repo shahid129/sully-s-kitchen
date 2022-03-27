@@ -564,6 +564,9 @@ h2 {
     .curry-image{
         min-height: 270px;
     }
+    .curry-image, .menu-right h2, .menu-left h2 {
+        margin-left: 5px;
+    }
 }
 
 /* sub heading move to left */
