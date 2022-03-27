@@ -15,7 +15,6 @@
 - [Deployment](#deployment) 
 - [Credits](#credits)
 - [Acknowledgement](#acknowledgement)
-- Author Info
 
 A very Comprehensive and easy to navigate restaurant menu is created to give the audience full comfort while using the restaurant menu. It is a fine dining restaurant where people will have to book in advance to ensure the availability of the seat-in capacity. in this way the customers will get 100% attention of the staff, and proper guest care would be taken. customer satisfaction and quality of the food is our main aim.
 
@@ -128,9 +127,9 @@ Google Lighthouse was used to check the Performance, Accessibility, Best Practic
 
 Screenshots of all these results are below -
 
-[HOME PAGE](/assets/docs/lightouse-home.png)
-[FULL MENU](/assets/docs/lightouse-fullmenu.png)
-[SIGN UP](/assets/docs/lightouse-signup.png)
+[HOME PAGE](/assets/docs/lighthouse-home.png)
+[FULL MENU](/assets/docs/lighthouse-menu.png)
+[SIGN UP](/assets/docs/lighthouse-signup.png)
 [ABOUT US](/assets/docs/lighthouse-aboutus.png)
 
 
@@ -178,10 +177,10 @@ Bugs and issues are very common while making a webpage. Exactly like that I ran 
 
 Balsamic wireframes was used to make the basic layout planning of the pages. Images of balsamic wireframs are -
 
-[Home](../sully-s-kitchen/assets/docs/balsanic-home.png)
-[Full Menu](../sully-s-kitchen/assets/docs/balsanic-full-menu.png)
-[Sign Up](../sully-s-kitchen/assets/docs/balsanic-sign-up.png)
-[About Us](../sully-s-kitchen/assets/docs/balsanic-about-us.png)
+[Home](../sully-s-kitchen/assets/docs/balsamic-home.png)
+[Full Menu](../sully-s-kitchen/assets/docs/balsamic-full-menu.png)
+[Sign Up](../sully-s-kitchen/assets/docs/balsamic-sign-up.png)
+[About Us](../sully-s-kitchen/assets/docs/balsamic-about-us.png)
 
 
 
@@ -221,3 +220,5 @@ The main idea and the layout of the page was my idea. my brother and wife helped
 
 > I would like to thank my tutor, Kasia, and my mentor, Seun, for their invaluable help and guidance throughout the process. The slack group Jan-2022-lwetb, and all the fellow mates from slack
 
+# THANK YOU
+Thanks to my fellow slackers for reviewing my project and a very special thank you to my mentor Daisy Seun, for her invaluable advice and resources throughout the development of this project.

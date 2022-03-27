@@ -279,12 +279,13 @@ h2 {
 }
 
 /* sign up form */
-form {
+/* form {
     margin-left: 30px;
-}
+} */
 
 #sign-up {
     background-color: #F3F3F3;
+    margin-top: -18px;
 }
 
 .form h2 {
@@ -309,7 +310,7 @@ form {
 }
 
 .user-details input {
-    border: 2px solid; rgb(38, 1, 1);
+    border: 2px solid rgb(38, 1, 1);
     border-radius: 5px;
     width: 50%;
     letter-spacing: .1em;
@@ -686,12 +687,20 @@ form {
         white-space: nowrap;
     }
 }
+
+
 /* media screen for 325px or less */
 @media screen and (max-width: 405px) {
     #menu li{
       justify-content: center;
       display: block;   
     }
+
+    /* input for sign up page */
+    .user-details input {
+        width: 75%;
+    } 
+    
     /* footer */
     #social li {
         font-size:.4em
