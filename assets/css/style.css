@@ -214,9 +214,6 @@ h2 {
 }
 /* image design for all the curry */
 .curry-image {
-    /* width: 400px;
-    height: 250px; */
-    /* border: 1px solid red; */
     display: flex;
     box-sizing: border-box;
     width: 100%;
@@ -279,10 +276,6 @@ h2 {
 }
 
 /* sign up form */
-/* form {
-    margin-left: 30px;
-} */
-
 #sign-up {
     background-color: #F3F3F3;
     margin-top: -18px;
@@ -345,7 +338,6 @@ h2 {
     position: relative;
     text-transform: capitalize;
     overflow: auto;
-
 }
 
 /* h2 terms and cond */
@@ -592,7 +584,6 @@ h2 {
     }
     header {
         display: inline;
-    
     }
 
     /* more menu */
