@@ -221,4 +221,4 @@ The main idea and the layout of the page was my idea. my brother and wife helped
 > I would like to thank my tutor, Kasia, and my mentor, Seun, for their invaluable help and guidance throughout the process. The slack group Jan-2022-lwetb, and all the fellow mates from slack
 
 # THANK YOU
-Thanks to my fellow slackers for reviewing my project and a very special thank you to my mentor Daisy Seun, for her invaluable advice and resources throughout the development of this project.
+Thanks to my fellow slackers for reviewing my project and a very special thank you to my mentor Seun, for her invaluable advice and resources throughout the development of this project.
